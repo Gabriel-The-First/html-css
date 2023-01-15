@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Regular.ttf) format(opentype);
+}
+
+body {
+    font-family: "Roboto";
+    background-image: linear-gradient(to right, #F0E6F0, #FCEAE3);
+}
+
+h1 {
+    color: rgb(22, 143, 143);
+}
+
+#first {
+    color: white;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(21, 104, 76);
+}
+
+.basico {
+    color:  rgb(22, 143, 143);
+}
+
+.interme {
+    color:  rgb(141, 143, 22);
+}
+
+.avan {
+    color:  rgb(143, 22, 22);
+}
+
+.featured {
+    background-color: azure;
+}

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,600&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #98DF9B;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to top, #225925, #52D959);
+    padding: 5px;
+    color: white;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356);
+}
+
+header > h1 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.555);
+}
+
+
+header h1, p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header > nav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    margin: 8px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #338337;
+    color: #1d5320;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+main {
+    background-color: white;
+    min-width: 400px;
+    max-width: 1160px;
+    margin: auto;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-align: center;
+}
+
+#text {
+    background-image: linear-gradient(to right, #338337, transparent);
+    color: #151a15;
+    padding: 3px;
+}
+
+.video {
+    background-color: #435943;
+    margin: 0px -10px 30px -10px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.updates {
+    background-color: rgb(170, 252, 170);
+    border-radius: 8px;
+    box-shadow: 5px 5px  7px rgba(0, 0, 0, 0.164);
+    padding-bottom: 4px;
+}
+
+.updates > h4 {
+    background-color: #41b947;
+    padding: 6px;
+    border-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+footer {
+    background-color: #285929;
+    text-align: center;
+    height: 35px;
+    color: rgb(182, 182, 182);
+}
+
+.updates > ul {
+    list-style-type: none;
+    columns: 2;
+}
+
+.link {
+    text-decoration: none;
+    color: #41b947;
+}
+
+.link:hover {
+    color: #52D959;
+    text-decoration: underline;
+}
+
+.link2 {
+    text-decoration: none;
+    color: #41b947;
+}
+
+.link2:hover {
+    color: #52D959;
+    text-decoration: underline;
+}
+
+.link3 {
+    text-decoration: none;
+    color: #41b947;
+}
+
+.link3:hover {
+    color: #52D959;
+    text-decoration: underline;
+}
+
+picture {
+    width: 100%;
+}
+

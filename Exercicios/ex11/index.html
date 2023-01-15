@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Celular.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Tablet.png" type="image/png">
+        <img src="Imagens/TV.png" >
+    </picture>
+    <p>Aqui está uma imagem de uma paisagem em varios tamanhos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+        <img src="Imagens/G.png" >
+    </picture>
+    <h2>Audio</h2>
+    <p>vamos aprender a reproduzir um audio em seu site</p>
+    <audio preload="auto" controls autoplay loop>
+        <source src="midia/Ratinho.mp3" type="audio/mpeg">
+    </audio>
+    <!--MP3 WAV OGG-->
+</body>
+</html>
