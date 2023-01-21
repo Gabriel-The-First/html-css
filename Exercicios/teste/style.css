@@ -1,0 +1,6 @@
+.quadrado {
+    width: 350;
+    height: 350;
+    border: 5px solid black;
+    background-color: gray;
+}
