@@ -1,6 +1,36 @@
-.quadrado {
-    width: 350;
-    height: 350;
-    border: 5px solid black;
-    background-color: gray;
+
+
+.poster {
+    display: inline-block;
+    width: 262px;
+    height: 692px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+#p1 {
+    background-image: url(577c02eb1fd590f93ef3dd37da5c7c13.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#p2 {
+    background-image: url(5a9ab61e0e5698fbb8dbd9ff182448d1.jpg);
+    background-repeat: no-repeat;
+}
+
+#p3 {
+    background-image: url(7529808419c752da60ea71d3905eddfd.jpg);
+    background-repeat: no-repeat;
+}
+
+#p4 {
+    background-image: url(8952bf234c086d3df17e07f30c44a91b.jpg);
+    background-repeat: no-repeat;
+}
+
+#p5 {
+    background-image: url(e5eceb983fca8e400208be9025009c35.jpg);
+    background-repeat: no-repeat;
 }
